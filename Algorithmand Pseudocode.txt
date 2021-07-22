@@ -1,0 +1,29 @@
+Algorithm
+1. Patient enters the clinic
+2. Ask if the patient is new or has previous records
+3. If new, proceed to get personal details(Full Name, Age, Gender, Address, Contact and etc.)
+4. Get the priority number then wait,
+5. If priority number is the same as the called number then go to the doctor
+6. If not, wait until the priority number is the same as the called number
+7. The doctor checks and provide consultation
+8. Check if the consultation is done
+9. If not, continue checkup
+10. If yes, update the details
+11. End
+
+
+Pseudocode
+BEGIN
+NUMERIC pNumber status(old or new) cNumber
+OUTPUT("Are you a new patient?")
+INPUT status(yes or no)
+IF yes (provide form for personal details for new account then get priority Number)
+ELSE ( proceed in getting the priority number)
+OUTPUT/Generate(pNumber)
+FOR (cNumber=(1 to 100))
+IF pNumber = cNumber( proceed to the doctor)
+ELSE (wait)
+IF done checkup (update database)
+ELSE (continue checkup)
+INPUT (update the database)
+END
